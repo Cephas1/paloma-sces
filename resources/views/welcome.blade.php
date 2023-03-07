@@ -831,11 +831,13 @@
       </div>
     </section><!-- End Team Section -->
 
+    <section id="" class="contact">
 
-    <div class="container" id="carriere">
-      <div class="row mb-4 mt-5">
-          <div class="card">
-            <h2></h2>
+      <div class="container" id="carriere">
+        <div class="row mb-2 mt-5">
+            <div class="section-header">
+              <h2> Postuler chez nous  <i class="bi bi-pen"></i> </h2>
+            </div>
             <div class="card-body">
               <div class="col-md-12">
                 <div class="col-lg-12">
@@ -867,11 +869,10 @@
                 </form>
               </div><!-- End Contact Form -->
             </div>
-          </div>
-
-          </div>
         </div>
-    </div>
+      </div>
+
+    </section>
 
 
     <!-- ======= Recent Blog Posts Section ======= -->
