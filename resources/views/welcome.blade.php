@@ -61,8 +61,8 @@
           <li><a class="nav-link scrollto" href="index.html#portfolio">Projets</a></li>
           <li><a class="nav-link scrollto" href="index.html#team">Equipe</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="index.html#carriere">Carrière</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -831,6 +831,49 @@
       </div>
     </section><!-- End Team Section -->
 
+
+    <div class="container" id="carriere">
+      <div class="row mb-4 mt-5">
+          <div class="card">
+            <h2></h2>
+            <div class="card-body">
+              <div class="col-md-12">
+                <div class="col-lg-12">
+                <form action="#" method="post" role="form" class="php-email-form">
+                    @csrf
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" id="name" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" id="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="subject" name="subject" id="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="col-md-6" style="margin-top: -12px">
+                        <label for="" class="text-hybride">CV</label>
+                        <input type="file" class="form-control" name="cv" placeholder="CV">
+                    </div>
+
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="body" id="body" placeholder="Message" style="margin-top: 25px;" required></textarea>
+                  </div>
+
+                  <div class="text-center"><button class="btn btn-primary mt-3" type="submit" id="send_mail">Soumettre</button></div>
+                </form>
+              </div><!-- End Contact Form -->
+            </div>
+          </div>
+
+          </div>
+        </div>
+    </div>
+
+
     <!-- ======= Recent Blog Posts Section ======= -->
     <!-- <section id="recent-blog-posts" class="recent-blog-posts">
 
@@ -903,7 +946,7 @@
         <iframe src="https://maps.google.com/maps?q=VINDOULU%20entreprise%20paloma%20services%20Face%20station%20Total%20Pointe,%20R%C3%A9publique%20du%20Congo&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
       </div><!-- End Google Maps -->
 
-      <div class="container" id="carriere">
+      <div class="container">
 
         <div class="row gy-5 gx-lg-5">
 
@@ -954,12 +997,8 @@
                 </div>
               </div>
               <div class="row mt-3">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <input type="text" class="form-control" id="subject" name="subject" id="subject" placeholder="Sujet" required>
-                </div>
-                <div class="col-md-6" style="margin-top: -12px">
-                    <label for="" class="text-hybride">CV</label>
-                    <input type="file" class="form-control" name="cv" placeholder="CV">
                 </div>
 
               </div>
